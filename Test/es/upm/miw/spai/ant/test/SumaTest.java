@@ -20,6 +20,11 @@ public class SumaTest {
 	public void aVerSiIncrementaBien() {
 		assertEquals("Test incrementa", 2.0, suma.incrementa(1.0), 1e-6);
 	}
+	
+	@Test
+	public void oTraSuma() {
+		assertEquals("Test suma", 6.0, suma.incrementa(5.0), 1e-6);
+	}
 
 	@Test
 	public void aVerSiSumaBien() {
